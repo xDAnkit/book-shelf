@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "exec_mode": "cluster",
+      "instances": 2,
+      "script": "./app.js",
+      "name": "InOffice-Pay-Web",
+      "interpreter": "node"
+    }
+  ]
+}

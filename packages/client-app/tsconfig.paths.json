@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@features/*": ["./src/features/*"],
+        "@navigation/*": ["./src/navigation/*"],
+        "@i18n": ["./src/utilities/i18n"],
+        "@network/*": ["./src/utilities/network/*"],
+        "@prod-config": ["./src/utilities/prod-config"],
+        "@utils": ["./src/utilities/utils"],
+        "@assets/*": ["./src/assets/*"],
+        "@components/*": ["./src/components/*"],
+        "@redux/*": ["./src/redux/*"],
+        "@location": ["./src/utilities/location"]
+      }
+    }
+  }

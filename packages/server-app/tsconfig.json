@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "typeRoots": ["node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./../*"],
+      "@database": ["src/utilities/database/index"],
+      "@session": ["src/utilities/jwt-provider/index"],
+      "@response": ["src/utilities/response-handler/index"],
+      "@redis": ["src/utilities/redis-provider/index"],
+      "@utils": ["src/utilities/utils/index"],
+      "@http-codes": ["src/utilities/http-codes/index"],
+      "@meta-infomation": ["src/utilities/meta-information/index"],
+      "@acl": ["src/utilities/access-control-list/index"],
+      "@interfaces": ["src/plugins/interfaces"],
+      "@configurations": ["src/configurations"],
+      "@api/*": ["src/api/*"],
+      "@notifications/*": ["src/utilities/notifications/*"],
+      "@assets/*": ["src/assets/images/*"],
+      "@reporting": ["src/utilities/reporting/index"],
+      "@http-client": ["src/utilities/http-client/index"]
+
+    }
+  },
+  "include": ["src/**/**.ts", "test/**/**.ts"],
+  "exclude": ["node_modules"]
+}

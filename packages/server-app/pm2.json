@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "exec_mode": "cluster",
+      "instances": 2,
+      "script": "./build/src/index.js",
+      "name": "Book-shelf-Server",
+      "interpreter": "node"
+    }
+  ]
+}

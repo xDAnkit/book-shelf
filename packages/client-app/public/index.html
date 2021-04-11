@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Book Shelf</title>
+  </head>
+
+  <body class="h-100">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="h-100" id="root"></div>
+  </body>
+</html>
+
+<script>
+  history.pushState(null, document.title, location.href);
+  history.back();
+  history.forward();
+  window.onpopstate = function () {
+    history.go(1);
+  };
+</script>
