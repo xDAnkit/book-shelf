@@ -6,10 +6,6 @@ echo "Pull latest changes from the repo"
 git pull
 echo "Pull latest changes from the repo success"
 
-echo "Install node modules"
-npm install
-echo "Install node modules success"
-
 echo "start the app"
 pm2 start pm2.json
 echo "start the app success"
