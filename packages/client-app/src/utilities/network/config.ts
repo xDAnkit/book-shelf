@@ -4,7 +4,7 @@ const GetBaseApplicationURL = (): string => {
 
   const devApplicationURL: string = 'http://192.168.0.108:7000/'; // Replace with your local machine URL running application server
   const stageApplicationURL: string = 'http://api-staging.inofficepay.com:7000/';
-  const prodApplicationURL: string = 'https://13.127.148.23:7000/';
+  const prodApplicationURL: string = 'http://13.127.148.23:7000/';
 
   if (__PROD__) {
     return prodApplicationURL;
