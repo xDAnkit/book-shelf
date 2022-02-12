@@ -10,10 +10,6 @@ echo "Install node modules"
 npm install
 echo "Install node modules success"
 
-echo "Build the app"
-npm run build
-echo "Build is successful"
-
 echo "start the app"
 pm2 start pm2.json
 echo "start the app success"

@@ -1,0 +1,15 @@
+{
+  "database": {
+    "connectionString": "mongodb://localhost:27017/db-conn-local"
+  },
+  "server": {
+    "baseUrl": "",
+    "appURL": "",
+    "port": 7000,
+    "env": "dev",
+    "jwtSecret": "RandomSecureKey_DEV",
+    "jwtExpiration": "6h",
+    "routePrefix": "",
+    "plugins": ["logger", "swagger"]
+  }
+}

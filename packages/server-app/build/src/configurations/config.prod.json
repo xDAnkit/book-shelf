@@ -1,0 +1,15 @@
+{
+  "database": {
+    "connectionString": "mongodb://localhost:27017/db-conn"
+  },
+  "server": {
+    "baseUrl": "https://api.prodinstane.com",
+    "applicationURL": "https://prodinstane.com",
+    "port": 5000,
+    "env": "prod",
+    "jwtSecret": "SERET_KEY",
+    "jwtExpiration": "6h",
+    "routePrefix": "",
+    "plugins": ["logger", "swagger"]
+  }
+}
